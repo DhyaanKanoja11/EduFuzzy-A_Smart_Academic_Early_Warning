@@ -18,6 +18,8 @@ The scope includes:
 *   **Predictive Modeling:** Forecasting future Final Exam scores using Linear Regression.
 *   **Unsupervised Clustering:** Automatically categorizing students into behavioral groups (e.g., "High Achievers", "At-Risk") using K-Means.
 *   **reporting:** Visualizing these insights for faculty and administrators.
+*   **Symbolic Reasoning:** Implementing a logic-based prototype using Prolog to validate the rule definitions against a knowledge base.
+
 
 ## 3. Target Users
 *   **Faculty & Class Advisors:** To identify "at-risk" students weeks before the final exams, allowing for timely counseling or remedial classes.
@@ -30,6 +32,8 @@ The scope includes:
 *   **Student Clustering:** An unsupervised learning feature that segments students into distinct groups without manual labeling [4].
 *   **Risk Dashboard:** A visual representation of the class's risk distribution, highlighting critical cases.
 *   **Automated Alert System:** Classifies students into **Safe**, **Monitor**, and **Critical** categories for immediate action.
+*   **Prolog Inference Module:** A separate logic layer that processes facts (Student Data) against strict Horn Clause rules to verify risk categories (Critical/Monitor/Safe).
+
 
 ## 5. References
 1.  **Zadeh, L. A.** (1965). "Fuzzy Sets." *Information and Control*, 8(3), 338-353.
