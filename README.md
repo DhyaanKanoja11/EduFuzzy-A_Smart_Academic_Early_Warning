@@ -7,9 +7,12 @@
 *   **Intelligent Grouping:** Automatically segments students into clusters (e.g., "High Achievers", "At-Risk") using K-Means Clustering.
 *   **Automated Reporting:** Generates a detailed CSV report with risk status (Safe, Monitor, Critical).
 *   **Visual Analytics:** Produces a bar chart visualizing the risk distribution across the class.
+*   **Logic-Based Reasoning:** Includes a Prolog module (`edufuzzy.pl`) to demonstrate symbolic AI and rule-based inference for risk classification.
+
 
 ## Technologies & Tools Used
 *   **Programming Language:** Python 3.13
+*   **Logic Programming:** SWI-Prolog (for symbolic reasoning)
 *   **Fuzzy Logic:** `scikit-fuzzy` (for defining membership functions and rules)
 *   **Machine Learning:** `scikit-learn` (for Linear Regression and K-Means Clustering)
 *   **Data Processing:** `pandas`, `numpy`
@@ -43,6 +46,11 @@ Ensure a file named `students.csv` exists in the `data/` folder with the followi
 Execute the main script:
 `python main.py`
 
+### 6. Running the Prolog Module 
+To test the logic-based version of the engine:
+1.  Install [SWI-Prolog](https://www.swi-prolog.org/).
+2.  Open the `prolog/edufuzzy.pl` file in SWI-Prolog.
+3.  Run the query `report_all.` to see the classification of all students.
 
 ## Instructions for Testing
 To verify the system works as expected, you can try these test cases by modifying the `data/students.csv` file:
