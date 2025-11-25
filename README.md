@@ -74,6 +74,8 @@ Final Analysis (Fuzzy + Regression + Clustering):
 A chart named `risk_analysis_chart.png` (or pop-up window) displays the risk score for each student against the critical threshold.
 <img width="1000" height="703" alt="image" src="https://github.com/user-attachments/assets/15575245-06d9-40b4-8a3d-f1cfcd09a502" />
 
+## "Comprehensive Git History is Mentioned in the Project Report"
+
 ## References
 
 1. Zadeh, L. A. (1965). *Fuzzy Sets*. Information and Control, 8(3), 338-353.
